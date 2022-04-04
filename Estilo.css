@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: monospace;
+}
+.header {
+  border-bottom: 3px solid #32b9cd;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.header .container {
+  justify-content: space-between;
+}
+.header ul #aqui {
+  font-weight: 900;
+}
+ul {
+  color: orange;
+}
+.titulo {
+  color: #32b9cd;
+  width: fit-content;
+}
+.navBar {
+  width: 300px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+a {
+  color: orange;
+  text-decoration: none;
+}
+/* Fim do Cabeçalho */
+
+/* Começo do Banner */
+
+.banner, .bannerCadastro {
+  background-image: url("./Imagens/bgJellyFishHome.png");
+  color: white;
+  height: 500px;
+  display: flex;
+}
+.bannerCadastro {
+  height: 750px;
+}
+.banner .container p span, .bannerCadastro .container p span {
+  font-weight: 1000;
+}
+.banner .container, .bannerCadastro .container {
+  justify-content: center;
+  font-size: 36px;
+}
+.banner .container p, .bannerCadastro .container p {
+    width: 10%;
+}
+/* Fim do Banner */
+
+/* Começo do Social */
+
+.social {
+  background-color: white;
+  display: flex;
+}
+.social .container .boxes .box img {
+  width: 150px;
+}
+
+.social .container .boxes {
+  display: flex;
+}
+.box {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+/* Final do Social */
+
+/* Começo do Footer */
+
+.footer {
+  background-color: #32b9cd;
+  height: 150px;
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+}
+
+.footer .container {
+  justify-content: center;
+}
+
+/* Final do Footer */
+
+/* Inicio do card */
+
+.banner .container .card, .cardCadastro {
+  background-color: #fff;
+  color: palevioletred;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+}
+.cardCadastro {
+  height: 650px;
+  padding-bottom: 20px;
+}
+.card h1, .cardCadastro h1 {
+    font-size: 30px;
+}
+.card h4, .cardCadastro h4 {
+    font-size: 16px;
+}
+
+.card input, .cardCadastro input {
+    border: 2px solid palevioletred;
+    text-align: center;
+    padding: 10px;
+}
+
+.card button, .cardCadastro button {
+    width: 100px;
+    height: 40px;
+    background-color: palevioletred;
+    margin-top: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+    cursor: pointer;
+}
